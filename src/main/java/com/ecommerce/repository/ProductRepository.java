@@ -1,0 +1,10 @@
+package com.ecommerce.repository;
+
+import com.ecommerce.entity.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ProductRepository extends JpaRepository<Product, Long>, ProductRepositoryCustom {
+    // JpaRepository already provides CRUD methods like save(), findById(), and deleteById()
+}

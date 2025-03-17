@@ -1,0 +1,8 @@
+com/ecommerce/entity/Product.class
+com/ecommerce/EcommerceApplication.class
+com/ecommerce/repository/ProductRepositoryCustom.class
+com/ecommerce/repository/ProductRepositoryImpl.class
+com/ecommerce/repository/ProductRepository.class
+com/ecommerce/service/ProductService.class
+com/ecommerce/controller/ProductController.class
+com/ecommerce/service/ProductServiceImpl.class
