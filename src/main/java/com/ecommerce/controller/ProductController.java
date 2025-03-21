@@ -2,6 +2,7 @@ package com.ecommerce.controller;
 
 import com.ecommerce.entity.Product;
 import com.ecommerce.service.ProductService;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
@@ -16,6 +17,7 @@ public class ProductController {
     }
 
     @GetMapping
+    @PreAuthorize("hasRole('ADMIN')")
     public List<Product> getAllProducts() {
         return productService.getAllProducts();
     }
@@ -26,6 +28,7 @@ public class ProductController {
     }
 
     @PostMapping
+    @PreAuthorize("hasRole('ADMIN')")
     public Product addProduct(@RequestBody Product product) {
         return productService.addProduct(product);
     }

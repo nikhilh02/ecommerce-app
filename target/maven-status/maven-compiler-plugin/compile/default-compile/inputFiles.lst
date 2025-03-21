@@ -1,8 +1,16 @@
 /Users/nikhilharkangi/Documents/ecommerce/src/main/java/com/ecommerce/EcommerceApplication.java
+/Users/nikhilharkangi/Documents/ecommerce/src/main/java/com/ecommerce/controller/AuthController.java
 /Users/nikhilharkangi/Documents/ecommerce/src/main/java/com/ecommerce/controller/ProductController.java
+/Users/nikhilharkangi/Documents/ecommerce/src/main/java/com/ecommerce/dto/AuthRequest.java
 /Users/nikhilharkangi/Documents/ecommerce/src/main/java/com/ecommerce/entity/Product.java
+/Users/nikhilharkangi/Documents/ecommerce/src/main/java/com/ecommerce/entity/Role.java
+/Users/nikhilharkangi/Documents/ecommerce/src/main/java/com/ecommerce/entity/User.java
 /Users/nikhilharkangi/Documents/ecommerce/src/main/java/com/ecommerce/repository/ProductRepository.java
 /Users/nikhilharkangi/Documents/ecommerce/src/main/java/com/ecommerce/repository/ProductRepositoryCustom.java
 /Users/nikhilharkangi/Documents/ecommerce/src/main/java/com/ecommerce/repository/ProductRepositoryImpl.java
+/Users/nikhilharkangi/Documents/ecommerce/src/main/java/com/ecommerce/repository/UserRepository.java
+/Users/nikhilharkangi/Documents/ecommerce/src/main/java/com/ecommerce/security/CustomUserDetailsService.java
+/Users/nikhilharkangi/Documents/ecommerce/src/main/java/com/ecommerce/security/JwtUtil.java
+/Users/nikhilharkangi/Documents/ecommerce/src/main/java/com/ecommerce/security/SecurityConfig.java
 /Users/nikhilharkangi/Documents/ecommerce/src/main/java/com/ecommerce/service/ProductService.java
 /Users/nikhilharkangi/Documents/ecommerce/src/main/java/com/ecommerce/service/ProductServiceImpl.java
